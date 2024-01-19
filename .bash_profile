@@ -41,3 +41,7 @@ gonit() {
 ghpub() {
   gh repo create
 }
+
+alias ll="ls -la"
+alias c="clear"
+alias g="git"
