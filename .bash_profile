@@ -1,6 +1,7 @@
 PS1="\[\033[1;36m\]\w >\[\033[1;34m\]>\[\033[0m\] "
 
 alias dotupdate="cp ~/projects/dotfiles/.bash_profile ~/ && source ~/.bash_profile"
+alias allup="sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get dist-upgrade -y && sudo apt-get autoremove -y && sudo apt-get autoclean -y"
 
 ginit() {
   git init --initial-branch=main "$1"
