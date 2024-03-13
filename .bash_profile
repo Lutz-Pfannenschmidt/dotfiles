@@ -1,5 +1,7 @@
 PS1="\[\033[1;36m\]\w >\[\033[1;34m\]>\[\033[0m\] "
 
+export GOPATH="$HOME/go"
+export PATH="$GOPATH/bin:$PATH"
 export PATH=$PATH:/usr/local/go/bin
 
 alias dotupdate="cp ~/projects/dotfiles/.bash_profile ~/ && source ~/.bash_profile"
